@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;800&family=Sarabun:wght@300;500;800&display=swap');
+
+.container {
+  margin: 25px auto;
+  width: 700px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: Inter, Helvetica, sans-serif;
+  color: midnightblue;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1 {
+  color: brown;
+  font-family: Sarabun, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.75px;
+  font-weight: 800px;
+}
+
+h2 {
+  color: rgba(75, 75, 75, 0.8);
+  font-family: Sarabun, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 500px;
+}
+
+h3 {
+  color: brown;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 800px;
+  margin-bottom: 40px;
+}
+
+a {
+  color: sandybrown;
+  text-decoration: none;
+}
+
+p {
+  font-weight: 300;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 3em;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+  text-align: justify;
+}
+
+#profile-img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  object-position: 0px 35%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 25px 0;
+}
+
+.border-round {
+  border-radius: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.margin-vertical {
+  margin: 25px 0;
+}
+
+.margin-horizontal{
+  margin: 0 25px;
+}
+
+.icon-medium {
+  width: 40px;
+  height: 40px;
+}
+
+.filter-greyscale {
+  filter: saturate(20%);
+}
+
+.filter-greyscale:hover {
+  filter: none;
+}
+
+.btn-green {
+  background-color: rgb(18, 139, 109);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
